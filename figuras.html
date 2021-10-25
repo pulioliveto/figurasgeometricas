@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras Geometricas</title>
+    <link rel="shortcut icon" href="/FigurasGeometricas/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="desktop.css" media="(min-width:960px)"> 
+</head>
+<body>
+    <header>
+        <h1>Figuras Geométricas<b>!</b></h1>
+        <p>Realizado por <a href="https://www.linkedin.com/in/emilianooliveto/" target="_blank">Puli</a> with 💚 - JS Vanilla</p>
+    </header>
+
+    <main>
+        <section class='container-figures'>
+        
+            <div class="cuadrado">
+                <span><img src="cubo.png" alt="" width="40"></span>
+                <h2>Cuadrado</h2>
+                <label for="input--cuadrado" required>Escribe los lados de tu cuadrado:
+                <input type="number" id="input--cuadrado">
+                </label>
+                <select name="" id="">
+                    <option value="">cm</option>
+                    <option value="">m</option>
+                </select>
+                <button onclick="calcularPerimetroCuadrado()">Calcular perímetro</button>
+                <button onclick="calcularAreaCuadrado()">Calcular área</button>
+                <p class="prf-result-general">Resultado:</p>
+                <div class="card-result">
+                    <p id='prf-resultado-cuadrado'></p>
+                </div>
+            </div>
+        
+            
+            <div class="circulo">
+                <span><img src="esfera.png" alt="" width="40"></span>
+                <h2>Circulo</h2>
+                <label for="input--circulo">Escribe el radio de tu circulo:</label>
+                <input type="number" id='input--circulo'>
+                <select name="" id="">
+                    <option value="">cm</option>
+                    <option value="">m</option>
+                </select>
+                <button onclick="calcularPerimetroCirculo()">Calcular perimetro</button>
+                <button onclick="calcularAreaCirculo()">Calcular area</button>
+                <p class="prf-result-general">Resultado:</p>
+                <div class="card-result">
+                <p id='prf-resultado-circulo'></p>
+                </div>
+            </div>
+
+            <div class="triangulo">
+                <span><img src="piramide.png" alt="" width="40"></span>
+                <h2>Triangulo</h2>
+                <label for="input--triangulo">Escribe las medidas de tu triangulo:</label>
+                
+                <!-- <legend>Lado A:</legend> -->
+                <input type="number" id="input--triangulo" placeholder="Lado A">
+                
+                <!-- <legend>Lado B:</legend> -->
+                <input type="number" id="input--triangulo2" placeholder="Lado B">
+
+                <!-- <legend>Base:</legend> -->
+                <input type="number" id="input--triangulo3" placeholder="Base">
+
+                <!-- <legend>Altura:</legend> -->
+                <input type="number" id="input--triangulo4" placeholder="Altura">
+                <select name="" id="">
+                    <option value="">cm</option>
+                    <option value="">m</option>
+                </select>
+
+                <button onclick="calcularAreaTriangulo()">Calcular area</button>
+                <button onclick="calcularPerimetroTriangulo()">Calcular perímetro</button>
+                <p class="prf-result-general">Resultado:</p>
+                <div class="card-result">
+                    <p id='prf-resultado-triangulo'></p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <script src="figuras.js"></script>
+</body>
+</html>

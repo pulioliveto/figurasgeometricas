@@ -1,0 +1,188 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size:62.5%;
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+header {
+    text-align:center;
+    background:linear-gradient(to right, #D7FF70 0%, #D7FF70 0%, #E0E0E0 100%);
+    /* border-bottom:1px dashed black; */
+    color:black;
+}
+
+
+header h1{
+    font-size:3.7rem;
+    text-transform: uppercase;
+}
+
+header p{
+    font-size:1.6rem;
+    position:relative;
+    bottom:1rem;
+}
+
+section{
+    min-width:320px;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    background-color:rgba(221, 221, 221, 0.596);
+}
+.card-result{
+    height:inherit;
+    width:inherit;
+    background-color:rgba(255, 255, 255, 0.466);
+}
+
+#prf-resultado-cuadrado{
+    color:black;
+}
+
+.prf-result-general{
+    margin-top:3.5rem;
+    font-size:2.7rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+section div {
+    height: 220px;
+    padding:3rem;
+    box-shadow:0px 6px 14px 0px rgba(0,0,0,0.47);
+    color:Black;
+    margin: 2rem 2.5rem;
+    font-size:2rem;
+    border-radius:1.5rem;
+}
+
+section div button {
+    background-color: white;
+    color: black;
+    font-weight:bold;
+    font-size:1.5rem;
+    padding:1rem;
+    border-style:none;
+    margin-top:1.5rem;
+    border-radius:1.5rem;
+    cursor: pointer;
+    width:100%;
+}
+
+section div h2{
+    text-align:center;
+    text-transform:uppercase;
+    font-size:5.5rem;
+    margin-bottom:1.5rem;
+    position:relative;
+    bottom:25px;
+}
+
+section div span {
+    position: relative;
+    bottom:45px;
+    
+}
+
+.cuadrado{
+    height:inherit;
+    background:linear-gradient(to right, #68D1AE 0%, #68D1AE 45%, #42FFE0 100%);
+    border-radius:1.5rem;
+    margin-top:5rem;
+    text-align:center;
+    
+}
+
+
+.cuadrado input{
+    margin-top:15px;
+    display:inline-block;
+    width:80%;
+    height:3rem;
+    font-size:2rem;
+    outline:none;
+    border-radius:15px;
+    border-style:none;
+    padding:0 1rem;
+
+}
+.cuadrado select{
+    height:3rem;
+    position:relative;
+    bottom:2px;
+    border-style:none;
+    border-radius:10px;
+    /* margin-left:10px; */
+    
+}
+
+
+.triangulo {
+    height:inherit;
+    background:linear-gradient(to right, #B0AD10 0%, #D1CD38 45%, #FFFF00 100%);
+    color:black;
+    text-align:center;
+    
+}
+
+.triangulo input {
+    width:100%;
+    height:3rem;
+    font-size:2rem;
+    outline:none;
+    border-radius:15px;
+    border-style:none;
+    padding:0 1rem;
+    margin-bottom:2.5rem;
+    
+}
+
+
+
+.triangulo select{
+    margin-top:1rem;
+    width:100%;
+    height:3rem;
+    font-size:1.4rem;
+    outline:none;
+    border-radius:15px;
+    border-style:none;
+    padding:0 2rem;
+    margin-bottom:2rem;
+}
+
+.circulo {
+    height:inherit;
+    background:linear-gradient(45deg, #6495ED 0%, #3DB7FF 45%, #40ECFF 100%);
+    color:black;
+    text-align:center;
+}
+
+.circulo input{
+    width:80%;
+    height:3rem;
+    font-size:2rem;
+    outline:none;
+    border-radius:15px;
+    border-style:none;
+    padding:0 1rem;
+    margin-bottom:1.5rem;
+    margin-top:1.5rem;
+}
+
+
+.circulo select{
+    /* margin-left:5px; */
+    height:3rem;
+    position:relative;
+    bottom:2px;
+    border-style:none;
+    border-radius:10px;
+    outline:none;
+}
+

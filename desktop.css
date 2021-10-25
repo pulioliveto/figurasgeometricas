@@ -1,0 +1,49 @@
+
+.container-figures{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+section div {
+    width: 390px;
+    
+}
+section div button{
+    transition:0.5s;
+}
+section div button:hover{
+    transform:scale(1.1);
+    transition:0.5s;
+}
+.cuadrado{
+    margin-top:2rem;
+    height:630px;
+}
+
+.card-result{
+    width:360px;
+    height:130px;
+    /* margin:0 auto; */
+    position:relative;
+    right:38px;
+}
+
+.circulo{
+    height:630px;
+    /* margin:0 auto; */
+    margin-top:2rem;
+    margin-bottom:2rem;
+    
+}
+
+section div h2{
+    margin-bottom:0;
+    margin-top:0;
+}
+
+.circulo input {
+    margin-bottom:0;
+}
+
+
